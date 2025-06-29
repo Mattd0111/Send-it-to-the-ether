@@ -18,11 +18,11 @@ body, html {
 
 .title-overlay {
   position: absolute;
-  top: 30px;
+  top: 20px;
   width: 100%;
   text-align: center;
   font-family: 'Brush Script MT', cursive;
-  font-size: 40px;
+  font-size: 80px;
   color: white;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
   z-index: 2;
@@ -38,15 +38,17 @@ body, html {
 }
 
 textarea {
-  width: 300px;
-  height: 100px;
+  width: 600px;
+  height: 200px;
+  font-size: 1.5em;
   border-radius: 10px;
   padding: 10px;
   resize: none;
 }
 
 button {
-  margin-top: 10px;
-  padding: 10px 20px;
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 1.2em;
   cursor: pointer;
 }
